@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/all.css">
+    <title>Light On/Off</title>
+</head>
+<body>
+    <!-- First Method no need to declare function -->
+    <!-- <div class="container">
+        <h2>Want to Turn On/Off just Click💡</h2>
+        <button class="btn1" onclick="document.getElementById('myImages').src='/images/pic_bulbon.gif'" >Turn On The Light💡</button>
+        <img src="/images/pic_bulboff.gif" alt="bulb" id="myImages">
+        <button class="btn2" onclick="document.getElementById('myImages').src='/images/pic_bulboff.gif'" >Turn Off The Light💡 </button>
+    </div> -->
+    <div class="container">
+        <h2>Want to Turn On/Off just Click💡</h2>
+        <button class="btn1" onclick="bulbOn()" >Turn On The Light <i class="fas fa-lightbulb"></i></button>
+        <img src="/images/pic_bulboff.gif" alt="bulb" id="myImages">
+        <button class="btn2" onclick="bulbOff()" >Turn Off The Light <i class="far fa-lightbulb"></i></button>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
